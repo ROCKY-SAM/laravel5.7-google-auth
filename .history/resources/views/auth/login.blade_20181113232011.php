@@ -80,11 +80,11 @@
 </div>
 
 <div class="btn white darken-4 col s10 m4">
-    <a href="/redirectFacebook" style="text-transform:none">
+    <a href="/redirect" style="text-transform:none">
         <div class="left">
-            <img width="20px" alt="Google &quot;G&quot; Logo" src="https://upload.wikimedia.org/wikipedia/commons/archive/c/c2/20130621042901%21F_icon.svg"/>
+            <img width="20px" alt="Google &quot;G&quot; Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"/>
         </div>
-        Login with Facebook
+        Login with Google
     </a>
 </div>
 @endsection

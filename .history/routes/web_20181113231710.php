@@ -23,4 +23,4 @@ Route::get('/callback', 'Auth\LoginController@handleProviderCallback');
 
 
 Route::get('/redirectFacebook', 'SocialAuthFacebookController@redirect');
-Route::get('/callbackFacebook', 'SocialAuthFacebookController@callback');
+Route::get('/callback', 'SocialAuthFacebookController@callback');

@@ -78,13 +78,4 @@
         Login with Google
     </a>
 </div>
-
-<div class="btn white darken-4 col s10 m4">
-    <a href="/redirectFacebook" style="text-transform:none">
-        <div class="left">
-            <img width="20px" alt="Google &quot;G&quot; Logo" src="https://upload.wikimedia.org/wikipedia/commons/archive/c/c2/20130621042901%21F_icon.svg"/>
-        </div>
-        Login with Facebook
-    </a>
-</div>
 @endsection
