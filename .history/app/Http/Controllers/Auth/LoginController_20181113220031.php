@@ -48,11 +48,11 @@ class LoginController extends Controller
 public function handleProviderCallback()
 {
    // try {
-        $user = Socialite::driver('google')->stateless()->user();
+        $user = Socialite::driver('google')->user();
   //  } catch (\Exception $e) {
   //      return redirect('/login');
    // }
-
+dd($user);
     // only allow people with @company.com to login
     if(explode("@", $user->email)[1] !== 'company.com'){
         return redirect()->to('/');

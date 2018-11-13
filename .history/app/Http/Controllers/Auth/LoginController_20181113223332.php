@@ -52,7 +52,7 @@ public function handleProviderCallback()
   //  } catch (\Exception $e) {
   //      return redirect('/login');
    // }
-
+dd($user);
     // only allow people with @company.com to login
     if(explode("@", $user->email)[1] !== 'company.com'){
         return redirect()->to('/');
